@@ -4,7 +4,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
 {
     internal class Exercicio6_Concurso_de_Beleza
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             string nome_moca;
             double altura_moca;

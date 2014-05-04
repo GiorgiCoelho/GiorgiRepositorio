@@ -41,12 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercicio10_NumerosAmigos.cs" />
     <Compile Include="Exercicio1_MaCa.cs" />
     <Compile Include="Exercicio2_ValidadeSenha.cs" />
     <Compile Include="Exercicio3_PesoIdeal.cs" />
     <Compile Include="Exercicio4_GRENAL_OS_2_PIORES_TIMES_DO_BRASILEIRAO.cs" />
     <Compile Include="Exercicio5_Fazenda.cs" />
     <Compile Include="Exercicio6_Concurso_de_Beleza.cs" />
+    <Compile Include="Exercicio7_Funcionario.cs" />
+    <Compile Include="Exercicio8_nomeInvertido.cs" />
+    <Compile Include="Exercicio9_Letras.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
