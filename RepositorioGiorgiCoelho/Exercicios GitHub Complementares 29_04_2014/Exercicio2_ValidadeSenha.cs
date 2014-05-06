@@ -11,7 +11,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
         public static int mes1, mes2;
         public static int verifica_validade;
 
-        public static void Maini(String[] args)
+        public static void Main(String[] args)
         {
             /*
             2) Escreva um programa que verifique a validade de uma senha fornecida pelo usuário.
@@ -67,7 +67,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
 
         private static void NovaSenha()
         {
-            Console.WriteLine("Digite a nova senha que deseja ser aplicada: ");
+            Console.Write("Digite a nova senha que deseja ser aplicada: ");
             senha_correta = Console.ReadLine();
             Console.Clear();
         }
