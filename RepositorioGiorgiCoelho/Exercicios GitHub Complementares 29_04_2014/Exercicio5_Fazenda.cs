@@ -8,7 +8,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
 {
     class Exercicio5_Fazenda
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             int quantidade_trabalhadores;
 

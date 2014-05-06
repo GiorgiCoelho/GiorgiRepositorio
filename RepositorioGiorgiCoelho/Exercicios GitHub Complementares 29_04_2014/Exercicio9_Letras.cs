@@ -8,7 +8,7 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
 {
     class Exercicio9_Letras
     {
-        public static void Maini(String[] args)
+        public static void Main(String[] args)
         {
             int quant_buracos = 0;
             string frase;
@@ -16,7 +16,7 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
 
             Console.WriteLine("Digite a frase: ");
             frase = Console.ReadLine();
-            frase = frase.ToUpper();
+            
             char[] pega_letra = frase.ToCharArray();  
           
             for (int i = 0; i < frase.Length; i++)
@@ -33,8 +33,7 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
                 if (pega_letra[i] == 'D')
                 {
                     quant_buracos = quant_buracos + 1;
-                }
-                
+                }                
                 if (pega_letra[i] == 'O')
                 {
                     quant_buracos = quant_buracos + 1;
@@ -51,6 +50,39 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
                 {
                     quant_buracos = quant_buracos + 1;
                 }
+                if (pega_letra[i] == 'a')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }
+                if (pega_letra[i] == 'b')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }
+                if (pega_letra[i] == 'd')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }
+                if (pega_letra[i] == 'e')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }
+                if (pega_letra[i] == 'g')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }
+                if (pega_letra[i] == 'o')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }
+                if (pega_letra[i] == 'p')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }
+                if (pega_letra[i] == 'q')
+                {
+                    quant_buracos = quant_buracos + 1;
+                }               
+
 
             }
             Console.WriteLine("Quantidade de buracos: " + quant_buracos);
