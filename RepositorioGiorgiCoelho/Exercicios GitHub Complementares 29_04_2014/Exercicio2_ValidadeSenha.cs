@@ -11,7 +11,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
         public static int mes1, mes2;
         public static int verifica_validade;
 
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             /*
             2) Escreva um programa que verifique a validade de uma senha fornecida pelo usuário.
