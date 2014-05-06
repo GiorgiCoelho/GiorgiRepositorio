@@ -18,7 +18,6 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
             Console.ReadKey();
 
         }
-
         private static void MetodoDeSaida(int[] a, int[] b, int[] soma1, int[] soma2)
         {
             for (int i = 0; i < a.Length; i++)
@@ -36,6 +35,25 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
 
         private static  void MetodoCalculaAmigos(int[] a, int[] b, int[] soma1, int[] soma2)
         {
+            CalculaValorA(a, soma1);
+            CalculaValorB(b, soma2);
+        }
+        private static void CalculaValorB(int[] b,int[] soma2)
+        {
+            for (int i = 0; i < b.Length; i++)
+            {
+                int valor = b[i];
+                for (int z = 0; z < valor; z++)
+                {
+                    if (z != 0 && b[i] % z == 0)
+                    {
+                        soma2[i] = soma2[i] + z;                       
+                    }
+                }                
+            }           
+        }
+        private static void CalculaValorA(int[] a, int[] soma1)
+        {
             for (int i = 0; i < a.Length; i++)
             {
                 int valor = a[i];
@@ -46,21 +64,8 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
                         soma1[i] = soma1[i] + z;
                     }
                 }
-
-            }
-            for (int i = 0; i < b.Length; i++)
-            {
-                int valor = b[i];
-                for (int z = 0; z < valor; z++)
-                {
-                    if (z != 0 && b[i] % z == 0)
-                    {
-                        soma2[i] = soma2[i] + z;
-                    }
-                }
             }
         }
-
         private static void DeterminaValor(int[] a, int[] b)
         {
             for (int i = 0; i < a.Length; i++)
