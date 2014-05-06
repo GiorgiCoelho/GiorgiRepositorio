@@ -19,8 +19,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
                 nome_moca = Console.ReadLine();
                 if (nome_moca == "FIM")
                 {
-                    break;
-                    
+                    break;                    
                 }                
                 Console.WriteLine("\a");
                 Console.Write("Altura da moça: ");

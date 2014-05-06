@@ -4,7 +4,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
 {
     internal class Exercicio3_PesoIdeal
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             /*
              3)  Tendo como entrada a altura e o sexo (codificado da seguinte forma 1:feminino 2:masculino)

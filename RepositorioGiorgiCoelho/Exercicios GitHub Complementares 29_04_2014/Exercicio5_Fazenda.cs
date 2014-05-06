@@ -8,7 +8,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
 {
     class Exercicio5_Fazenda
     {
-        public static void Maini(String[] args)
+        public static void Main(String[] args)
         {
             int quantidade_trabalhadores;
 
@@ -108,7 +108,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
 
         private static void InicioDoPrograma(out int quantidade_trabalhadores, out int[] numero_trabalhador, out int[] idade, out int[] quantidade_caixas, out double[] trabalhador_ganhou)
         {
-            Console.WriteLine("\t Bem vindo à FarmVile v2.1 ");
+            Console.WriteLine("\t Bem vindo à FarmVille v2.1 ");
             Console.WriteLine("\a");
             Console.Write("Quantidade de trabalhadores que deseja cadastrar: ");
             quantidade_trabalhadores = int.Parse(Console.ReadLine());
