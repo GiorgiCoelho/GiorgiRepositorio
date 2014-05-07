@@ -30,11 +30,7 @@ namespace Unidade_VII
             Console.WriteLine(soma_string);            
             soma_string2 = " teste " + 1 + 2 + 3;
             Console.WriteLine(soma_string2);*/
-
-
-            Operador();
-
-        
+            Operador();        
         }
 
         private static void Operador()
@@ -68,8 +64,7 @@ namespace Unidade_VII
             Console.WriteLine(10 > 5 || 5 < 100);//Dois || verifica a primeira condição, depois a segunda
             Console.WriteLine(10 > 5 | 5 < 100);//Um | verifica a primeira condição, depois a segunda
             Console.WriteLine(10 > 5 ^ 5 < 100);// ^ = OU exclusivo
-        }
-              
+        }             
 
         private static void SaidaDados(int soma, int subtracao, int modularizacao, double divisao, int multiplicacao, int incremento, int decremento)
         {
