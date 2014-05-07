@@ -25,7 +25,10 @@ namespace Unidade_VII
             multiplicacao *= 5;
             incremento++;
             decremento--;
-
+            incremento = 1;
+            decremento = 1;
+            ++incremento;
+            --decremento;
 
             Console.WriteLine("Soma: {0} ", soma);
             Console.WriteLine("Subtração: {0} ", subtracao);
