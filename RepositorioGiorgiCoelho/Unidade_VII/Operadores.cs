@@ -27,7 +27,8 @@ namespace Unidade_VII
             soma_string = "teste" + 1 + 2 + 3;
             Console.WriteLine(soma_string);            
             soma_string2 = " teste " + 1 + 2 + 3;
-            Console.WriteLine(soma_string2);
+            Console.WriteLine(soma_string2);          
+
         
         }
     }

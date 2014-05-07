@@ -8,7 +8,7 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
 {
     class Exercicio9_Letras
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             int quant_buracos = 0;
             string frase;
