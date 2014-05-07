@@ -8,7 +8,7 @@ namespace Unidade_VII
 {
     class Operadores
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             int a = 0;
             int b = 0;

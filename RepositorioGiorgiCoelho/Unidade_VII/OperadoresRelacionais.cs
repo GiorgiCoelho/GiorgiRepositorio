@@ -13,7 +13,7 @@ namespace Unidade_VII
             int soma = 1;
             int subtracao = 1;
             int modularizacao = 1;
-            int divisao = 1;
+            double divisao = 1;
             int multiplicacao = 1;
             int incremento = 1;
             int decremento = 1;
@@ -33,6 +33,7 @@ namespace Unidade_VII
             Console.WriteLine("Multiplicação: {0} ", multiplicacao);
             Console.WriteLine("Incremento: {0} ", incremento);
             Console.WriteLine("Decremento: {0} ", decremento);
+            Console.ReadKey();
         }
         
         
