@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unidade_VII
 {
-    class OperadoresRelacionais
+    class OperadoresRelacionaisEAtribuicao
     {
         public static void Main(String[] args)
         {
@@ -17,7 +17,7 @@ namespace Unidade_VII
             int multiplicacao = 1;
             int incremento = 1;
             int decremento = 1;
-
+            // Atribuição
             soma += 5;
             subtracao -= 5;
             modularizacao %= 5;
@@ -34,6 +34,8 @@ namespace Unidade_VII
             Console.WriteLine("Multiplicação: {0} ", multiplicacao);
             Console.WriteLine("Incremento: {0} ", incremento);
             Console.WriteLine("Decremento: {0} ", decremento);
+
+            //Relacionais
             Console.WriteLine(10 > 5 && 5 > 100);// Dois && verifica a primeira condição, depois a segunda
             Console.WriteLine(10 > 5 & 5 > 100);//Um & verifica as duas condições
             Console.WriteLine(10 > 5 || 5 < 100);//Dois || verifica a primeira condição, depois a segunda

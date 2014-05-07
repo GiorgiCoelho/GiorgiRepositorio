@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Operadores.cs" />
-    <Compile Include="OperadoresRelacionais.cs" />
+    <Compile Include="OperadoresRelacionaisEAtribuicao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
