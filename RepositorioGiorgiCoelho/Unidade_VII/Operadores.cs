@@ -30,7 +30,13 @@ namespace Unidade_VII
             Console.WriteLine(soma_string);            
             soma_string2 = " teste " + 1 + 2 + 3;
             Console.WriteLine(soma_string2);*/
-            Operador();        
+            Operador();
+            OperadorString();
+        }
+
+        private static void OperadorString()
+        {
+            
         }
 
         private static void Operador()

@@ -8,7 +8,7 @@ namespace Exercicios_Fixacao
 {
     class Exercicio2
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             double salario;
             int numero_filhos;            
