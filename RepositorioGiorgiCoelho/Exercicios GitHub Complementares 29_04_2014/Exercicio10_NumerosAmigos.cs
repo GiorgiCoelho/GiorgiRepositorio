@@ -4,7 +4,7 @@ namespace Exercicios_GitHub_Complementares_29_04_2014
 {
     internal class Exercicio10_NumerosAmigos
     {
-        public static void Maini(String[] args)
+        public static void Main(String[] args)
         {
             int[] a = new int[5];
             int[] b = new int[5];
