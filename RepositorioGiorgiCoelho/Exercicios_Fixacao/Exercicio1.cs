@@ -4,7 +4,7 @@ namespace Exercicios_Fixacao
 {
     internal class Exercicio1
     {
-        private static void Main(string[] args)
+        private static void Maini(string[] args)
         {
             double preco_produto;
             double maior_preco = 0;
@@ -14,9 +14,9 @@ namespace Exercicios_Fixacao
 
             for (int i = 0; i < 15; i++)
             {
-                Console.Write("Código do produto: ");
+                Console.Write("\a\nCódigo do produto ["+i+"]: ");
                 codigo = int.Parse(Console.ReadLine());
-                Console.Write("\nPreço do produto: R$ ");
+                Console.Write("\nPreço do produto [" + i + "]: R$ ");
                 preco_produto = double.Parse(Console.ReadLine());
                 if (preco_produto > maior_preco)
                 {
@@ -26,7 +26,8 @@ namespace Exercicios_Fixacao
             }
             media = soma_valores / 15;
             Console.Clear();
-            Console.WriteLine("\tMédia: R$ {0}", media, " --- Valor mais alto: R$ {0}", maior_preco);
+            Console.WriteLine("\tMédia: R$ {0}", media); 
+            Console.WriteLine("\tValor mais alto: R$ {0}", maior_preco);
             Console.ReadKey();
         }
     }
