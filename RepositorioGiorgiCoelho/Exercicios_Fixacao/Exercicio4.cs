@@ -8,7 +8,7 @@ namespace Exercicios_Fixacao
 {
     class Exercicio4
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             /*
             4) 	Escreva um programa que gere todos os anagramas potenciais de uma string.
