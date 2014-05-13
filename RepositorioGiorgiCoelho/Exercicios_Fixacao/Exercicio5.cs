@@ -24,19 +24,17 @@ namespace Exercicios_Fixacao
             {
                 for (int z = aumento; z <= tamanho; z++)
                 {
-                    int verifica = 1;
-
                     valores[z] = z;
                     Console.Write(valores[z] + " ");
                 }
                 aux++;
                 aumento++;
+                tamanho--;
                 Console.WriteLine("");
                 for (int c = 1; c <= aux; c++)
                 {
                     Console.Write("  ");
                 }
-                tamanho--;
             }
 
             Console.ReadKey();
