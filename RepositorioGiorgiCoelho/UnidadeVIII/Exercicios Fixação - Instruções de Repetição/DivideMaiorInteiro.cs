@@ -8,7 +8,7 @@ namespace UnidadeVIII.Exercicios_Fixação___Instruções_de_Repetição
 {
     class DivideMaiorInteiro
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             int variavel = 2147483647;
             int recebe = variavel;
