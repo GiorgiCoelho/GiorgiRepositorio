@@ -51,6 +51,7 @@
     <Compile Include="Exercicios Fixação - Instruções de Repetição\Imprime100ExcetoMultiplo3.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\InstrucoesRepeticoes.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\JogoDeDado.cs" />
+    <Compile Include="Exercicios Fixação - Instruções de Repetição\JogoDeDado2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VerificaValorProduto.cs" />
   </ItemGroup>
