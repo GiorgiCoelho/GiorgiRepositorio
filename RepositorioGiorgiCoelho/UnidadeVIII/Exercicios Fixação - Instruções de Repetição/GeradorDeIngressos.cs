@@ -8,7 +8,7 @@ namespace UnidadeVIII.Exercicios_Fixação___Instruções_de_Repetição
 {
     class GeradorDeIngressos
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             for (int i = 1; i < 5; i++)
             {
