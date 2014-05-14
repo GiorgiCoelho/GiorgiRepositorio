@@ -46,6 +46,7 @@
     <Compile Include="EscolheCaminho.cs" />
     <Compile Include="EscolheRoupa.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\DivideMaiorInteiro.cs" />
+    <Compile Include="Exercicios Fixação - Instruções de Repetição\FraseCastigo.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\GeradorDeIngressos.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\Imprime100.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\Imprime100ExcetoMultiplo3.cs" />

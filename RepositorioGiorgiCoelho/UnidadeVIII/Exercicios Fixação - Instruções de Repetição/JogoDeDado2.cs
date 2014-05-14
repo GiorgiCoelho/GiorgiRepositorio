@@ -4,7 +4,7 @@ namespace UnidadeVIII.Exercicios_Fixação___Instruções_de_Repetição
 {
     internal class JogoDeDado2
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             int soma = 0;
             int dado;
