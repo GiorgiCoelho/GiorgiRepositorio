@@ -14,8 +14,8 @@ namespace UnidadeVIII.Exercicios_Fixação___Instruções_de_Repetição
             {
                 Console.WriteLine("Eu não andarei de skate nos corredores."); // Comando Ctrl + C faz com que o programa pare e feche.
             }
-            /*
-             * while(true)
+            /*int i = 1
+             * while(i < 10)
              * {
              *  Console.WriteLine("Eu não andarei de skate nos corredores."); // Comando Ctrl + C faz com que o programa pare e feche.
              * } */
