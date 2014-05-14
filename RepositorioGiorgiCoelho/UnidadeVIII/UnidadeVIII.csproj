@@ -53,6 +53,12 @@
     <Compile Include="Exercicios Fixação - Instruções de Repetição\InstrucoesRepeticoes.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\JogoDeDado.cs" />
     <Compile Include="Exercicios Fixação - Instruções de Repetição\JogoDeDado2.cs" />
+    <Compile Include="Exercícios Complementares\Exe1_Gerador2Numeros.cs" />
+    <Compile Include="Exercícios Complementares\Exe2_DesenhoEstrelas.cs" />
+    <Compile Include="Exercícios Complementares\Exe3_Apartamento.cs" />
+    <Compile Include="Exercícios Complementares\Exe4_Tabuada.cs" />
+    <Compile Include="Exercícios Complementares\Exe5_Dado.cs" />
+    <Compile Include="Exercícios Complementares\Exe6_ContagemNum1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VerificaValorProduto.cs" />
   </ItemGroup>

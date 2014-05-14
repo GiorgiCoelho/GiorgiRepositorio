@@ -8,7 +8,7 @@ namespace UnidadeVIII.Exercicios_Fixação___Instruções_de_Repetição
 {
     class FraseCastigo
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             for (int i = 0; i < 100;)
             {
