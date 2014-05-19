@@ -17,8 +17,7 @@ namespace MedindoAFebreVI
             double nota_media_turma;
             double soma_medias = 0;
             int[] frequencia = new int[100];
-            int[] verifica = new int[100];
-            
+
             do
             {
                 Console.WriteLine("Quantas aulas teve no semestre? Deve ter maior que 40 aulas! ");
@@ -59,6 +58,7 @@ namespace MedindoAFebreVI
 
                 Console.WriteLine("Quantas faltas esse aluno teve? ");
                 num_aulas_faltadas[i] = int.Parse(Console.ReadLine());
+                Console.Clear();
                 soma_medias += soma_nota[i];
                 frequencia[i] = num_aulas - num_aulas_faltadas[i];
             }
