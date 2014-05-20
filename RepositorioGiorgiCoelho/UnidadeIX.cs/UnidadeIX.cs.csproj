@@ -41,19 +41,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SequenciaCrescente.cs" />
-    <Compile Include="SequenciaDecrescente.cs" />
-    <Compile Include="SequenciaImpar.cs" />
-    <Compile Include="SequenciaAleatoria.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_8.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_4.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_1.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_2.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_3.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_5.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_6.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_7.cs" />
+    <Compile Include="Exercícios Fixação\SequenciaCrescente.cs" />
+    <Compile Include="Exercícios Fixação\SequenciaDecrescente.cs" />
+    <Compile Include="Exercícios Fixação\SequenciaImpar.cs" />
+    <Compile Include="Exercícios Fixação\SequenciaAleatoria.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SequenciaQualquer.cs" />
-    <Compile Include="TabelaAleatoria.cs" />
-    <Compile Include="TabelaQualquer.cs" />
-    <Compile Include="Tabuada.cs" />
+    <Compile Include="Exercícios Fixação\SequenciaQualquer.cs" />
+    <Compile Include="Exercícios Fixação\TabelaAleatoria.cs" />
+    <Compile Include="Exercícios Fixação\TabelaQualquer.cs" />
+    <Compile Include="Exercícios Fixação\Tabuada.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Exercícios - Unidade IX.docx" />
+    <None Include="Exercícios Fixação\Exercícios - Unidade IX.docx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

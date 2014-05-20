@@ -8,7 +8,7 @@ namespace UnidadeIX.cs
 {
     class Tabuada
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             Console.WriteLine("Quantidade de linhas: ");
             int linha = int.Parse(Console.ReadLine());
