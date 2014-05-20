@@ -4,41 +4,59 @@ namespace UnidadeIX.cs
 {
     internal class Exercicio_8
     {
-        public static void Maini(string[] args)
+        public static void Main(string[] args)
         {
-            int[] gabarito = new int[13];
-
-            int quant_jogadores;
-            Console.Write("Quantidade de jogadores? ");
-            quant_jogadores = int.Parse(Console.ReadLine());
-            int[] jogador = new int[quant_jogadores];
-            int count = 0;
+            Console.WriteLine("Quantidade de jogadores: ");
+            int quant_jogadores = int.Parse(Console.ReadLine());
+            int[,] gabarito = new int[13, 3];
+            int[,] verifica = new int[13, 3];
+            int[] cartao_resposta = new int[13];
             Random gerador = new Random();
+            int count = 0;
 
+            Console.Clear();
             for (int i = 0; i < 13; i++)
             {
-                gabarito[i] = gerador.Next(1, 4);
-                Console.WriteLine(gabarito[i]);
-            }
-            for (int i = 0; i < quant_jogadores; i++)
-            {
-                for (int z = 0; z < 13; z++)
+                for (int z = 0; z < 3; z++)
                 {
-                   
-                    Console.Write("Jogou qual número? ");
-                    jogador[i] = int.Parse(Console.ReadLine());
-                    if (jogador[i] == gabarito[z])
+                Volta:
+                    gabarito[i, z] = gerador.Next(1, 40);
+                    for (int q = 0; q < 13; q++)
                     {
-                        ++count;
-                        if (count == 13)
+                        for (int c = 0; c < 3; c++)
                         {
-                            Console.WriteLine("Jogador "+(i+1)+" foi GANHADOR!");
-                            Console.WriteLine("-------------------------------");
-                            Console.ReadKey();                            
+                            if (gabarito[i,z] == verifica[q,c])
+                            {
+                                goto Volta;
+                            }
                         }
-                    }                   
+                    }
+                    verifica[i, z] = gabarito[i, z];
+                    Console.Write(gabarito[i, z]);
+                    Console.Write("      ");
                 }
-                Console.Clear(); 
+                Console.WriteLine();
+            }
+            Console.WriteLine("");
+            for (int z = 0; z < 13; z++)
+            {
+                Console.Write("Valor escolhido " + z + ": ");
+                cartao_resposta[z] = int.Parse(Console.ReadLine());
+                for (int c = 0; c < 3; c++)
+                {
+                    for (int d = 0; d < 13; d++)
+                    {
+                        if (gabarito[d, c] == cartao_resposta[z])
+                        {
+                            count++;
+                            if (count == 13)
+                            {
+                                Console.WriteLine("VENCEDOR!");
+                                break;
+                            }
+                        }
+                    }
+                }
             }
             Console.ReadKey();
         }
