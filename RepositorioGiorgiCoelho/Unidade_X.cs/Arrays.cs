@@ -8,7 +8,7 @@ namespace Unidade_X.cs
 {
     class Arrays
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             int[] array1 = new int[10];
             int[] array2 = new int[10];

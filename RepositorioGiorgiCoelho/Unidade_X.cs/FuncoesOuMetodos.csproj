@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Arrays.cs" />
     <Compile Include="ConsumoDeCombustivel.cs" />
+    <Compile Include="Exercicios_Complementares\Ano_Bissexto.cs" />
     <Compile Include="IMC.cs" />
     <Compile Include="IRPF.cs" />
     <Compile Include="JurosCompostos.cs" />
