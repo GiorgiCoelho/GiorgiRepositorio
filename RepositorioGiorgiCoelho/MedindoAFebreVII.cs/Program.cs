@@ -21,6 +21,8 @@ namespace MedindoAFebreVII.cs
             double porc_maiores_170 = 0;
             double maisAlto = 0;
             double maisBaixo = 0;
+            int maisAlto2 = 0;
+            int maisBaixo2 = 0;
             int[] dezMaisVelhos = new int[50];
             double[] cincoMaisNovos = new double[5];
 
@@ -36,15 +38,19 @@ namespace MedindoAFebreVII.cs
                 Console.WriteLine("----------------------------------------------");
                 Console.WriteLine("Nome: {0}, Idade: {1}, Sexo: {2}, Adulto: {3}", nome[i], idade[i], sexo[i], adulto[i]);
             }
-            
+
             MostraResultado(ref porc_adulto, ref porc_nao_adulto, ref porc_masculino, ref porc_feminino, ref porc_maiores_170, maisAlto, maisBaixo);
             
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 10; i++)
             {
-                for (int c = 0; c < 15; c++)
+                for (int z = 0; z < 15; z++)
                 {
-                   
-                }                        
+                    maisAlto2 = idade[z];
+                    if (idade[z] > maisAlto2)
+                    {
+                        dezMaisVelhos[i] = idade[z]; 
+                    }
+                }
             }
 
             for (int i = 0; i < 10; i++)
@@ -59,8 +65,8 @@ namespace MedindoAFebreVII.cs
             FazCalculo(ref porc_adulto, ref porc_nao_adulto, ref porc_masculino, ref porc_feminino, ref porc_maiores_170);
             Console.WriteLine("-----------------------------------------------------------------------");
             Console.WriteLine("Pessoa Mais Alta: {0:F2} | Pessoa Mais Baixa: {1:F2}", maisAlto, maisBaixo);
-            Console.WriteLine("Porcentagem Adulto: {0}% | Porcentagem Não Adulto{1}%", porc_adulto, porc_nao_adulto);
-            Console.WriteLine("Porcentagem Masculino: {0}% | Porcentagem Feminino{1}%", porc_masculino, porc_feminino);
+            Console.WriteLine("Porcentagem Adulto: {0}% | Porcentagem Não Adulto: {1}% ", porc_adulto, porc_nao_adulto);
+            Console.WriteLine("Porcentagem Masculino: {0}% | Porcentagem Feminino: {1}%", porc_masculino, porc_feminino);
             Console.WriteLine("Porcentagem Maior que 1,70 Metros: {0}%", porc_maiores_170);
         }
 
