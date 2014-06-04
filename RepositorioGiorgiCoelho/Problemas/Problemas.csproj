@@ -41,12 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcharMaiorMenorElemento.cs" />
-    <Compile Include="MediaElementos.cs" />
-    <Compile Include="OrdenarElementos.cs" />
+    <Compile Include="Complementar\Mega_Sena_01.cs" />
+    <Compile Include="Fixação\AcharMaiorMenorElemento.cs" />
+    <Compile Include="Fixação\MediaElementos.cs" />
+    <Compile Include="Fixação\OrdenarElementos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SomaElementos.cs" />
-    <Compile Include="TrocaElementos.cs" />
+    <Compile Include="Fixação\SomaElementos.cs" />
+    <Compile Include="Fixação\TrocaElementos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -8,7 +8,7 @@ namespace Problemas
 {
     class OrdenarElementos
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             int[] array = new int[5];
             Random gerador = new Random();
