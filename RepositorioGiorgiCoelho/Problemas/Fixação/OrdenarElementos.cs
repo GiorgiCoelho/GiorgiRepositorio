@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problemas
 {
-    class OrdenarElementos
+    internal class OrdenarElementos
     {
         public static void Maini(string[] args)
         {
@@ -15,14 +11,14 @@ namespace Problemas
             for (int i = 0; i < array.Length; i++)
             {
                 array[i] = gerador.Next(0, 10);
-                Console.Write(array[i]+ " ");
+                Console.Write(array[i] + " ");
             }
-            
+
             Ordena(array);
             Console.WriteLine("");
             for (int i = 0; i < array.Length; i++)
             {
-                Console.Write(array[i]+ " ");
+                Console.Write(array[i] + " ");
             }
             Console.ReadKey();
         }

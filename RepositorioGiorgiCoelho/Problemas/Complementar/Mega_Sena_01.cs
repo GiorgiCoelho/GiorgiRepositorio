@@ -4,7 +4,7 @@ namespace Problemas.Complementar
 {
     internal class Mega_Sena_01
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             //VARIÁVEIS
             int[] valores_megasena = new int[6];

@@ -23,8 +23,7 @@ namespace Problemas
             int aux3 = 0;
             do
             {
-                aux3 = geraValorTroca.Next(0, 5); 
- 
+                aux3 = geraValorTroca.Next(0, 5);  
             } while (aux3 == aux2);
 
             int aux = array[aux2];
