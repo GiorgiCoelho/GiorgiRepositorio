@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3686495-147D-4FDD-A8B2-1E309CBBBC19}</ProjectGuid>
+    <ProjectGuid>{EB12810F-D0A0-4EFB-AD94-942A543B0858}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LivrariaHarryPotter</RootNamespace>
-    <AssemblyName>LivrariaHarryPotter</AssemblyName>
+    <RootNamespace>ExerciciosGitHub</RootNamespace>
+    <AssemblyName>ExerciciosGitHub</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,6 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Complementares\Exercicio10_NumerosAmigos.cs" />
+    <Compile Include="Complementares\Exercicio1_MaCa.cs" />
+    <Compile Include="Complementares\Exercicio2_ValidadeSenha.cs" />
+    <Compile Include="Complementares\Exercicio3_PesoIdeal.cs" />
+    <Compile Include="Complementares\Exercicio4_GRENAL_OS_2_PIORES_TIMES_DO_BRASILEIRAO.cs" />
+    <Compile Include="Complementares\Exercicio5_Fazenda.cs" />
+    <Compile Include="Complementares\Exercicio6_Concurso_de_Beleza.cs" />
+    <Compile Include="Complementares\Exercicio7_Funcionario.cs" />
+    <Compile Include="Complementares\Exercicio8_nomeInvertido.cs" />
+    <Compile Include="Complementares\Exercicio9_Letras.cs" />
+    <Compile Include="Fixação\Exercício1.cs" />
+    <Compile Include="Fixação\Exercício2.cs" />
+    <Compile Include="Fixação\Exercício3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3686495-147D-4FDD-A8B2-1E309CBBBC19}</ProjectGuid>
+    <ProjectGuid>{A7803898-07D5-454A-8EF5-38EE7F1D10C6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LivrariaHarryPotter</RootNamespace>
-    <AssemblyName>LivrariaHarryPotter</AssemblyName>
+    <RootNamespace>Medindo_A_Febre</RootNamespace>
+    <AssemblyName>Medindo_A_Febre</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MedindoAFebreVII\Program.cs" />
+    <Compile Include="MedindoAFebreVI\Exercicio12.cs" />
+    <Compile Include="MedindoAFebreV\Exe7.cs" />
+    <Compile Include="MedindoAFebreV\Exe8.cs" />
+    <Compile Include="MedindoAFebreV\Exe9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
