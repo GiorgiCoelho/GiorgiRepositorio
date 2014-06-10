@@ -115,6 +115,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Unidade IX\Exercícios Fixação\Exercícios - Unidade IX.docx" />
+    <None Include="Unidade XII\Banco\Exercícios - Unidade XII.docx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
