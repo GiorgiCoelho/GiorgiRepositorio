@@ -1,0 +1,19 @@
+﻿--SELECT * FROM Aluno WHERE Altura = 1.8;
+--SELECT * FROM Aluno WHERE Altura != 1.8;
+--SELECT * FROM Aluno WHERE Altura <= 1.8;
+--SELECT * FROM Aluno WHERE Altura < 1.8;
+--SELECT * FROM Aluno WHERE Altura >= 1.8;
+--SELECT * FROM Aluno WHERE Altura > 1.8;
+--SELECT * FROM Aluno WHERE Aprovado IS TRUE ;
+--SELECT * FROM Aluno WHERE Aprovado IS NOT TRUE ;
+--SELECT * FROM Aluno WHERE Nome IS NULL ;
+--SELECT * FROM Aluno WHERE Nome IS NOT NULL ;
+--SELECT * FROM Aluno WHERE Altura BETWEEN 1.5 AND 1.8;
+--SELECT * FROM Aluno WHERE Altura NOT BETWEEEN 1.5 AND 1.8;
+--SELECT * FROM Aluno WHERE Nome LIKE 'Gi%'; --(A % serve pra: EX1 - Gi% - vai procurar tudo até Gi. EX2 = %L vai procurar tudo que termine em L.)
+--SELECT * FROM Aluno WHERE Nome NOT LIKE 'Rafael%';
+--SELECT * FROM Aluno WHERE Altura IN (1.5 , 1.6 , 1.7 , 1.8) ;
+--SELECT * FROM Aluno WHERE Altura NOT IN (1.5 , 1.6 , 1.7 , 1.8) ;
+--SELECT * FROM Aluno WHERE NOT Altura = 1.80;
+--SELECT * FROM Aluno WHERE Altura < 1.8 AND Nome LIKE ’Nome ’;
+--SELECT * FROM Aluno WHERE Altura < 1.8 OR Nome LIKE 'Nome%';

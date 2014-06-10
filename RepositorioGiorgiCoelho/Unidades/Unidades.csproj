@@ -142,7 +142,12 @@
       <DependentUpon>Aluno.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Unidade XII\Banco\SQLQuery1.sql" />
+    <Content Include="Unidade XII\Banco\SQLQuery4.sql" />
+    <Content Include="Unidade XII\Banco\SQLQuery3.sql" />
     <Content Include="Unidade XII\Banco\SQLQuery2.sql" />
+    <Content Include="Unidade XII\Banco\SQLQuery5.sql" />
+    <Content Include="Unidade XII\Banco\SQLQuery6.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
