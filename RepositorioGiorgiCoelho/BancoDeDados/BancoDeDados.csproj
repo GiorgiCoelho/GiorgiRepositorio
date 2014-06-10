@@ -69,6 +69,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>GiorgiBD.mdf</DependentUpon>
     </Content>
+    <Content Include="SQLQuery1.sql" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
