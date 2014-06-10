@@ -115,7 +115,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Unidade IX\Exercícios Fixação\Exercícios - Unidade IX.docx" />
-    <None Include="Unidade XII\Banco\Exercícios - Unidade XII.docx" />
+    <None Include="Unidade XII\Banco\Exercícios Fixação\Exercícios - Unidade XII.docx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -135,19 +135,19 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Unidade XII\Banco\Aluno.mdf">
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\Aluno.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Unidade XII\Banco\Aluno_log.ldf">
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\Aluno_log.ldf">
       <DependentUpon>Aluno.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Unidade XII\Banco\SQLQuery1.sql" />
-    <Content Include="Unidade XII\Banco\SQLQuery4.sql" />
-    <Content Include="Unidade XII\Banco\SQLQuery3.sql" />
-    <Content Include="Unidade XII\Banco\SQLQuery2.sql" />
-    <Content Include="Unidade XII\Banco\SQLQuery5.sql" />
-    <Content Include="Unidade XII\Banco\SQLQuery6.sql" />
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\SQLQuery1.sql" />
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\SQLQuery2.sql" />
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\SQLQuery3.sql" />
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\SQLQuery4.sql" />
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\SQLQuery5.sql" />
+    <Content Include="Unidade XII\Banco\Exercícios Fixação\SQLQuery6.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
