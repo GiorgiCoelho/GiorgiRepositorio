@@ -10,7 +10,7 @@ namespace BancoDeDados.Pedido
 {
     class ClienteRegistro
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             //CONNECTION STRING  
             string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\aluno\Source\Repos\GiorgiRepositorio\RepositorioGiorgiCoelho\BancoDeDados\GiorgiBD.mdf;Integrated Security=True";
