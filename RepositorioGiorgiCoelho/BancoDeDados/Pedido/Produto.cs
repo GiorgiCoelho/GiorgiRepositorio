@@ -24,12 +24,22 @@ namespace BancoDeDados.Pedido
             //SELECIONA TODOS OS PRODUTOS
             //SqlCommand command = new SqlCommand("SELECT * FROM Produto",sqlConnection);
 
-            //SqlDataReader reader = command.ExecuteReader();
+           // SqlDataReader reader = command.ExecuteReader();
 
-            //while(reader.Read())
-            //{
-            //    Console.WriteLine(reader["Nome"]);
-            //}
+            //Listando todos o intens na tabela pedidos
+           // SqlCommand select = new SqlCommand(@"SELECT P.Nome, C.PrimeiroNome, PD.DataPedido, PD.Quantidade " +
+           //                                    "FROM Pedido AS PD " +
+           //                                    "INNER JOIN Cliente AS C ON PD.Cliente_Id = C.Id " +
+            //                                   "INNER JOIN Produto AS P ON PD.Produto_Id = P.Id", sqlConection);
+           // SqlDataReader dataReader = select.ExecuteReader();
+
+           /* while (dataReader.Read())
+            {
+                Console.WriteLine("Data de Hoje:" + dataReader["DataPedido"]);
+                Console.WriteLine("Quantidade:" + dataReader["Quantidade"]);
+                Console.WriteLine("Produto:" + dataReader["Nome"]);
+                Console.WriteLine("Cliente:" + dataReader["PrimeiroNome"]);
+            }*/
 
 
             //ATUALIZA PRODUTO
