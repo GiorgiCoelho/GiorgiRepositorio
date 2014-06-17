@@ -10,7 +10,7 @@
 --SELECT Funcionario.PrimeiroNome, Departamento.Nome from Funcionario inner join Departamento on Funcionario.Departamento_ID = Departamento.Id
 --SELECT F.PrimeiroNome,F.Funcao, D.Nome from Funcionario as F inner join Departamento as D on F.Departamento_ID = D.Id order by PrimeiroNome;
 
---SELECT F.Salario, D.Nome from Funcionario as F inner join Departamento as D on F.Departamento_ID = D.Id
+--SELECT SUM(F.Salario), D.Nome from Funcionario as F inner join Departamento as D on F.Departamento_ID = D.Id group by D.Nome
 
 --DELETE Departamento from Departamento left outer join Funcionario on Departamento.Id = Funcionario.Departamento_ID where Funcionario.Departamento_ID is null
 
