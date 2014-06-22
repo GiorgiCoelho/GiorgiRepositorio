@@ -62,7 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Exercício Complementar\App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Exercício Complementar\CriandoTabela.sql" />
@@ -75,6 +75,7 @@
       <DependentUpon>GiorgiBD.mdf</DependentUpon>
     </Content>
     <Content Include="SQLQuery1.sql" />
+    <Content Include="Trabalho\Respostas.sql" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
