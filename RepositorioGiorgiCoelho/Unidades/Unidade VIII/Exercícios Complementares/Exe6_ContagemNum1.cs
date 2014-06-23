@@ -8,7 +8,7 @@ namespace UnidadeVIII.Exercícios_Complementares
 {
     class Exe6_ContagemNum1
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             Random gerador = new Random();
             int valor = gerador.Next(0,10000);

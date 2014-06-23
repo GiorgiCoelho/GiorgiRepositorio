@@ -4,7 +4,7 @@ namespace Unidade_X.cs.Exercicios_Complementares
 {
     internal class Ano_Bissexto
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             bool verifica;
             int ano, mes, dia;

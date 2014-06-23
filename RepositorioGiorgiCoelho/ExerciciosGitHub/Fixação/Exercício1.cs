@@ -8,7 +8,7 @@ namespace Exercicio_GitHub_UnidadeVI
 {
     class Exercício1
     {
-        static void Main(string[] args)
+        static void Maini(string[] args)
         {
             Console.WriteLine("Digite quantos vendedores deseja-se calcular: ");
             int quant_vendedor = int.Parse(Console.ReadLine());

@@ -4,7 +4,7 @@ namespace UnidadeIX.cs
 {
     internal class Exercicio_8
     {
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             Console.WriteLine("Quantidade de jogadores: ");
             int quant_jogadores = int.Parse(Console.ReadLine());

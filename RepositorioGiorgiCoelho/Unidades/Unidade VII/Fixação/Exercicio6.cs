@@ -4,7 +4,7 @@ namespace Exercicios_Fixacao
 {
     internal class Exercicio6
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             int num1 = 0;
             int num2 = 0;
