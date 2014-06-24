@@ -3,10 +3,11 @@
 --insert into TBMatricula(Curso_Id,Aluno_Id) values(3,9)
  
 --Questão 2
---select Aluno_Id, TBAluno.Nome, TBCurso.Nome from TBMatricula join TBAluno on (TBMatricula.Aluno_Id = TBAluno.Id) inner join TBCurso on TBMatricula.Curso_Id = TBCurso.Id order by TBCurso.Nome
+--select Aluno_Id, TBAluno.Nome, TBCurso.Nome from TBMatricula join TBAluno on (TBMatricula.Aluno_Id = TBAluno.Id)
+--inner join TBCurso on TBMatricula.Curso_Id = TBCurso.Id order by TBCurso.Nome
  
 --Questão 3
---Select Email, (DATEDIFF(YEAR, DataNascimento, GETDATE())) from TBAluno where (DATEDIFF(YEAR, DataNascimento, GETDATE())) > 18
+--Select Email, (DATEDIFF(YEAR, DataNascimento, GETDATE())) from TBAluno where (DATEDIFF(YEAR, DataNascimento, GETDATE())) > 17
 
 --Questão 4
 --select count(*) from TBAluno
