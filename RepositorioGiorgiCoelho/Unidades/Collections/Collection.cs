@@ -46,7 +46,7 @@ namespace Unidades.Collections
              }
          }*/
 
-        public static void Main(string[] args)
+        public static void Maini(string[] args)
         {
             ArrayList artigo = new ArrayList();
             ArrayList preco = new ArrayList();
