@@ -51,19 +51,23 @@ namespace Unidades.Collections
             ArrayList artigo = new ArrayList();
             ArrayList preco = new ArrayList();
             ArrayList desconto = new ArrayList();
-
+            ArrayList pagar = new ArrayList();         
+            
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Nome do artigo: ");
                 artigo.Add(Console.ReadLine()); 
                 Console.WriteLine("Preco do artigo: ");
-                preco.Add(double.Parse(Console.ReadLine()));
+                preco.Add(Convert.ToDouble(Console.ReadLine()));
                 Console.WriteLine("Desconto do artigo: ");
-                desconto.Add(double.Parse(Console.ReadLine()));
-                desconto[i] = ((double)desconto[i] / 100);
-            }
-            Console.ReadKey();
+                desconto.Add(double.Parse(Console.ReadLine()));                
+                pagar.Add((double)preco[i] - (double)desconto[i]);
+                Console.WriteLine("Preço a pagar: R$ "+pagar[i]);
+                Console.WriteLine();
+            } 
+            Console.ReadKey();           
         }
+        
 
 
     }

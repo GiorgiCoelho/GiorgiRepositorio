@@ -5,7 +5,7 @@ namespace BancoDeDados.Exercícios_BD
 {
     internal class Pedido
     {
-        public static void Main()
+        public static void Maini()
         {
             //CONNECTION STRING
             string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\aluno\Source\Repos\GiorgiRepositorio\RepositorioGiorgiCoelho\BancoDeDados\GiorgiBD.mdf;Integrated Security=True";
