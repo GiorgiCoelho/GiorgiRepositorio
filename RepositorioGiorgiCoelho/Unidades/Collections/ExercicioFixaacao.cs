@@ -171,6 +171,7 @@ namespace Unidades.Collections
             List<string> times = new List<string>();
             Random geraGrupos = new Random();
             ArrayList grupos = new ArrayList();
+
             TimesCopa2014(times);
             GruposCopa(grupos);
 
