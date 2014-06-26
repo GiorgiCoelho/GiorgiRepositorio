@@ -35,7 +35,6 @@ namespace Unidades.Collections
             InvertendoValor(numeros);
             Console.ReadKey();
         }
-
         //Métodos do Exercício 1
         #region
         private static void InvertendoValor(List<int> numeros)
@@ -66,7 +65,6 @@ namespace Unidades.Collections
             }*/
         }
         #endregion
-
         private static void Exercicio2()
         {
             List<double> numeros = new List<double>();
@@ -88,7 +86,6 @@ namespace Unidades.Collections
             Console.WriteLine("==============================");
             Console.ReadKey();
         }
-
         private static void Exercicio3()
         {
             List<string> nomes = new List<string>();
@@ -114,7 +111,6 @@ namespace Unidades.Collections
             }
             Console.ReadKey();
         }
-
         private static void Exercicio4()
         {
             List<int> numeros = new List<int>();
@@ -164,7 +160,6 @@ namespace Unidades.Collections
             }
             Console.ReadKey();
         }
-
         private static void Exercicio5()
         {
             int recebeGerador;
@@ -199,7 +194,6 @@ namespace Unidades.Collections
 
             Console.ReadKey();
         }
-
         //Métodos do Exercício 5
         #region
         private static void GruposCopa(ArrayList grupos)
