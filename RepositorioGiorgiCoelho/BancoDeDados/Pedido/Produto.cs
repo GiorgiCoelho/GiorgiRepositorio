@@ -98,7 +98,7 @@ namespace BancoDeDados.Pedido
                     Console.WriteLine("Produto Inserido Com Sucesso!");
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Digite algo válido!");
             }

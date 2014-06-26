@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Unidades.Collections
 {
-    internal class ExercicioFixacao
+    internal class ExercicioFixaacao
     {
         public static void Main(string[] args)
         {

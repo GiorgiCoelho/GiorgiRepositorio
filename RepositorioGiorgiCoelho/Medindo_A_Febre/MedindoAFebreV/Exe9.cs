@@ -8,7 +8,7 @@ namespace MedindoAFebreV
 {
     class Exe9
     {
-        public static void Main(String[] args)
+        public static void Maini(String[] args)
         {
             string descricao;
             int quantidade;

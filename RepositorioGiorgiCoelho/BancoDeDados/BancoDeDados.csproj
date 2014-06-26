@@ -59,6 +59,7 @@
     <Compile Include="Pedido\ClienteRegistro.cs" />
     <Compile Include="Pedido\Pedido.cs" />
     <Compile Include="Pedido\Produto.cs" />
+    <Compile Include="program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

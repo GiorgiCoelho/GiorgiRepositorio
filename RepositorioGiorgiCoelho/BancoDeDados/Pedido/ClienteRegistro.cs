@@ -49,7 +49,7 @@ namespace BancoDeDados.Pedido
                     Console.WriteLine("Cliente Deletado Com Sucesso!");
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Digite algo válido!");
             }
@@ -72,7 +72,7 @@ namespace BancoDeDados.Pedido
                     Console.WriteLine("Cliente Atualizado!");
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Digite algo válido!");
             }
@@ -116,7 +116,7 @@ namespace BancoDeDados.Pedido
                     Console.WriteLine("Produto Inserido Com Sucesso!");
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Digite algo válido!");
             }

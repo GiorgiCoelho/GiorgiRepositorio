@@ -22,7 +22,7 @@ namespace MedindoAFebreVII.cs
             double maisAlto = 0;
             double maisBaixo = 0;
             int maisAlto2 = 0;
-            int maisBaixo2 = 0;
+            
             int[] dezMaisVelhos = new int[50];
             double[] cincoMaisNovos = new double[5];
 

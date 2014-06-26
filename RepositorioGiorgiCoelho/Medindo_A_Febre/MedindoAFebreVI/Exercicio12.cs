@@ -4,7 +4,7 @@ namespace MedindoAFebreVI
 {
     internal class Exercicio12
     {
-        private static void Main(string[] args)
+        private static void Maini(string[] args)
         {
             double[] notas = new double[3];
             double[] media = new double[100];
