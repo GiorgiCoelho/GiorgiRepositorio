@@ -200,6 +200,8 @@ namespace Unidades.Collections
             Console.ReadKey();
         }
 
+        //Métodos do Exercício 5
+        #region
         private static void GruposCopa(ArrayList grupos)
         {
             grupos.Add("A");
@@ -247,5 +249,6 @@ namespace Unidades.Collections
             times.Add("México");
             times.Add("Uruguai");
         }
+        #endregion
     }
 }
