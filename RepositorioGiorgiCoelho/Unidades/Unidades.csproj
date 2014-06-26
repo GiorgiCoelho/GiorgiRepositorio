@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\Collection.cs" />
-    <Compile Include="Collections\ExercicioFixacao.cs" />
+    <Compile Include="Collections\ExercicioFixaacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unidade IX\Exercícios Complementares\Exercicio_1.cs" />
     <Compile Include="Unidade IX\Exercícios Complementares\Exercicio_2.cs" />

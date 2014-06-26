@@ -8,7 +8,7 @@ namespace Exercicios_Complementares_GitHub_UNIDADE_VI
 {
     class Exercicio1_Maca
     {
-        static void Main(string[] args)
+        static void Maini(string[] args)
         {
             /*
                1) As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia, 
